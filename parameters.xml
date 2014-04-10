@@ -1,0 +1,9 @@
+﻿<parameters>
+  <parameter name="IIS Web Application Name" defaultValue="Default Web Site/WebApplication1_deploy" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Goksgreat\\documents\\visual\ studio\ 2012\\Projects\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Goksgreat\\documents\\visual\ studio\ 2012\\Projects\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="MyConnectionString-Web.config Connection String" defaultValue="Data Source=(localdb)\v11.0;Initial Catalog=regi;Integrated Security=True;Pooling=False">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Goksgreat\\documents\\visual\ studio\ 2012\\Projects\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
